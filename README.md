@@ -1,0 +1,1 @@
+# Wayne Project (fixed)\n\nFastAPI + React + SQLite + Tailwind\n
