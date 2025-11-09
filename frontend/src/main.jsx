@@ -6,6 +6,9 @@ import App from './App'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import Resources from './pages/Resources'
+import RestrictedAreas from './pages/RestrictedAreas'
+import AccessLogs from './pages/AccessLogs'
+import UsersPage from './pages/Users'  // Renomeei para UsersPage para evitar conflito
 import './index.css'
 
 const root = createRoot(document.getElementById('root'))
@@ -18,6 +21,9 @@ root.render(
           <Route index element={<Dashboard />} />
           <Route path='login' element={<Login />} />
           <Route path='resources' element={<Resources />} />
+          <Route path='restricted-areas' element={<RestrictedAreas />} />
+          <Route path='access-logs' element={<AccessLogs />} />
+          <Route path='users' element={<UsersPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
