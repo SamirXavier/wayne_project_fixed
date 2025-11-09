@@ -214,25 +214,6 @@ export default function Dashboard(){
           </div>
         </div>
       </div>
-
-      {/* Quick Actions */}
-      <div className="bg-slate-800/50 backdrop-blur-xl rounded-xl p-6 border border-slate-700">
-        <h3 className="text-lg font-semibold text-white mb-4">Ações Rápidas</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <button className="p-4 bg-emerald-500/20 border border-emerald-500/30 rounded-lg hover:bg-emerald-500/30 transition-colors">
-            <span className="text-emerald-400 font-medium">Cadastrar Recurso</span>
-          </button>
-          <button className="p-4 bg-blue-500/20 border border-blue-500/30 rounded-lg hover:bg-blue-500/30 transition-colors">
-            <span className="text-blue-400 font-medium">Gerenciar Acessos</span>
-          </button>
-          <button className="p-4 bg-purple-500/20 border border-purple-500/30 rounded-lg hover:bg-purple-500/30 transition-colors">
-            <span className="text-purple-400 font-medium">Ver Logs</span>
-          </button>
-          <button className="p-4 bg-amber-500/20 border border-amber-500/30 rounded-lg hover:bg-amber-500/30 transition-colors">
-            <span className="text-amber-400 font-medium">Gerar Relatório</span>
-          </button>
-        </div>
-      </div>
     </div>
   )
 }
